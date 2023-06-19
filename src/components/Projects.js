@@ -1,8 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.jpg";
-//import projImg2 from "../assets/img/project-img2.png";
-//import projImg3 from "../assets/img/project-img3.png";
+import projImg2 from "../assets/img/project-img2.png";
+import projImg3 from "../assets/img/project-img3.jpg";
+import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.jpg";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -15,7 +18,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "Mora UXplore1.0 event Website",
-      description: "Design & Development using MERN stack",
+      description: "Technologies used:MERN stack",
       imgUrl: projImg1,
       icon1: icon1,
       icon2: icon2,
@@ -24,25 +27,29 @@ export const Projects = () => {
       
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      //imgUrl: projImg2,
+      title: "Robo Friends App",
+      description: "Technologies used:React.js",
+      imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-     // imgUrl: projImg3,
+      title: "My Previous Portfolio site",
+      description: "Technologies used:React.js",
+      imgUrl: projImg5,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Full Stack Blog Site",
+      description: "Technologies used:MERN stack",
+      imgUrl: projImg4,
     },
+
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      //imgUrl: projImg2,
+      title: "Configuration Console",
+  description: "Technologies used:React js,ASP.net,MSSQL,C#",
+      imgUrl: projImg2,
     },
+   
+    
+    
     {
       title: "Business Startup",
       description: "Design & Development",
